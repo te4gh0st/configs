@@ -102,4 +102,4 @@ alias vps='ssh vitaliy@te1ch0st.ru'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #TE1ch0st logo in start
-/home/vitaly/.te1ch0st/te1ch0st.py
+~/.te1ch0st/te1ch0st.py
