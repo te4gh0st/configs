@@ -13,7 +13,7 @@
 sudo apt install zsh
 
 # Oh my zsh
-curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 echo 'oh-my-zsh is installed!'
 
 # Plugins
