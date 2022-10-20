@@ -20,4 +20,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #TE1ch0st logo in start
-~/te1ch0st/te1ch0st.py
+~/.te1ch0st/te1ch0st.py
