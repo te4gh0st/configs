@@ -9,10 +9,20 @@
 #	   $$ |   $$$$$$$$\ $$$$$$\ \$$$$$$$\ $$ |  $$ |\$$$$$$  /$$$$$$$  |  \$$$$  |
 #	   \__|   \________|\______| \_______|\__|  \__| \______/ \_______/    \____/  
 
-mkdir -p  ~/.config/nvim
-cp init.vim ~/.config/nvim/init.vim
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo 'oh-my-zsh is installed!'
 
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+# Plugins
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-echo "Nvim config is installed!"
+# logo
+mkdir -p ~/.te1ch0st
+cp -f te1ch0st.py ~/.te1ch0st/te1ch0st.py
+cp -f zshrc ~/.zshrc
+apt install python3
+apt install python3-pip
+pip3 install colorama
+
+echo "ZSH config is installed!"
