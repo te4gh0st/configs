@@ -1,5 +1,10 @@
-# My configs
-```
+#!/usr/bin/python3
+
+from colorama import Fore, Back, Style, init
+
+init(autoreset=True)
+
+logo = '''
   $$\               $$\   $$\           $$\        $$$$$$\              $$\     
   $$ |              $$ |  $$ |          $$ |      $$$ __$$\             $$ |    
 $$$$$$\    $$$$$$\  $$ |  $$ | $$$$$$\  $$$$$$$\  $$$$\ $$ | $$$$$$$\ $$$$$$\   
@@ -11,4 +16,8 @@ $$$$$$\    $$$$$$\  $$ |  $$ | $$$$$$\  $$$$$$$\  $$$$\ $$ | $$$$$$$\ $$$$$$\
                               $$\   $$ |                                        
                               \$$$$$$  |                                        
                                \______/                                         
-```
+'''
+print(Fore.RED + logo)
+print(Fore.RED + ''.center(78, '-'))
+print(Back.BLACK + Fore.WHITE + 'Welcome'.center(78))
+print(Fore.RED + ''.center(78, '-'))
