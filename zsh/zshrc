@@ -28,3 +28,5 @@ source $ZSH/oh-my-zsh.sh
 
 #te4gh0st logo in start
 ~/.te4gh0st/te4gh0st.py
+
+alias ports="sudo lsof -nP -iTCP -sTCP:LISTEN"
