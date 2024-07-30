@@ -18,7 +18,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # logo
 mkdir -p ~/.te4gh0st
-cp -f te4gh0st.py ~/.te4gh0st/te4gh0st.py
+cp -f te4gh0st ~/.te4gh0st/te4gh0st
 chmod +x ~/.te4gh0st/te4gh0st
 cp -f zshrc ~/.zshrc
 echo "ZSH config is installed!"
